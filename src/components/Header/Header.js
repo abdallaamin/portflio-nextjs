@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GiInternalInjury } from 'react-icons/gi';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons ,Span} from './HeaderStyles';
 
 const Header = () =>  (
   
@@ -11,7 +11,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{display:"flex" , alignItems:"center",color:"white"}}>
-            <GiInternalInjury size="3rem" style={{padding:"0 4px 0 0"}}/><span>portfolio</span>
+            <GiInternalInjury size="3rem" style={{padding:"0 4px 0 0",marginBotom:"20;"}}/><Span>portfolio</Span>
         </a>
       </Link>
     </Div1>

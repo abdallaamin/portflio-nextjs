@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "portflio1",
+    "public": "portflio",
     "ignore": [
       "firebase.json",
       "**/.*",

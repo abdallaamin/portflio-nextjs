@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Next level chat ',
     description: "Using Next js, CHATENGINE for backendthat serves as fully function teams clone implemnted using Next js ",
-      image: '/public/images/main-chat-screen.png',
+      image: '/nextchat.png',
       tags: ['NextJS', 'ChatEngine', 'Css', 'Versel'],
     source: 'https://github.com/abdallaamin/Next-level-chat-using-next-js',
     visit: 'https://nextlevelchat.vercel.app/',
@@ -26,15 +26,15 @@ export const projects = [
     visit: 'https://google.com',
     id: 2,
   },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+  // {
+  //   title: 'Unichat',
+  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: '/images/4.jpg',
+  //   tags: ['React', 'ChatEngine', 'Firebase'],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 3,
+  // },
 ];
 
 export const TimeLineData = [

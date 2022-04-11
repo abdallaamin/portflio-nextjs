@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Next level chat ',
     description: "Using Next js, CHATENGINE for backendthat serves as fully function teams clone implemnted using Next js ",
-      image: '/nextchat.png',
+      image: '/images/nextchatjpg.jpg',
       tags: ['NextJS', 'ChatEngine', 'Css', 'Versel'],
     source: 'https://github.com/abdallaamin/Next-level-chat-using-next-js',
     visit: 'https://nextlevelchat.vercel.app/',

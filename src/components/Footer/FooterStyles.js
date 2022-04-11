@@ -56,7 +56,7 @@ justify-content: space-between;
 @media ${props => props.theme.breakpoints.sm}{
   display: flex;
 	width: 100%;
-  flex-direction: column;
+  flex-direction: row;
 }
 `
 
@@ -74,7 +74,7 @@ export const CompanyContainer = styled.div`
 
 	@media ${props => props.theme.breakpoints.sm}{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		margin: 0 0 32px;
 		align-items: center;
 	}
@@ -138,7 +138,7 @@ export const LinkList = styled.ul`
 
 export const LinkColumn = styled.div`
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	max-width: 220px;
 	width: 100%;
 `

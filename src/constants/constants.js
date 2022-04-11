@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Next level chat ',
+    description: "Using Next js, CHATENGINE for backendthat serves as fully function teams clone implemnted using Next js ",
+      image: '/public/images/main-chat-screen.png',
+      tags: ['NextJS', 'ChatEngine', 'Css', 'Versel'],
+    source: 'https://github.com/abdallaamin/Next-level-chat-using-next-js',
+    visit: 'https://nextlevelchat.vercel.app/',
     id: 0,
   },
   {

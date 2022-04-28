@@ -9,17 +9,20 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-        <LinkTitle>Call Me</LinkTitle>
-        <LinkItem href="tel:+201145572259">+201145572259</LinkItem>
+        <LinkTitle>Reach Me on Mobile/(Whatsapp)</LinkTitle>
+        <LinkItem href="tel:+201145572259" >+201145572259</LinkItem>
         </LinkColumn>
         <LinkColumn>
         <LinkTitle>Email</LinkTitle>
-        <LinkItem href="mailto:abdo.faozy@gmail.com">abdo.faozy@gmail.com</LinkItem>
+        <LinkItem href="mailto:abdo.faozy@gmail.com" target="_blank">abdo.faozy@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>chill ya man</Slogan>
+          <Slogan>
+          Made @cairo With Love ❤️ By Abdalla Amin.
+          <br/>
+          ©2022 All Rights Reserved.</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/abdallaamin" target="_blank" rel="github">
         <AiFillGithub size="3rem"/>

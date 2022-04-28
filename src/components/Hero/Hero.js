@@ -11,13 +11,13 @@ const Hero = (props) => (
         Abdalla Amin <br/>
       </SectionTitle>
       <SectionSubText>
-        Fullstack web developer
+      Hello, I'm a Full-stack Software Engineer based in Cairo,Egypt!
       </SectionSubText>
         <SectionText>
-            Hi there My name is Abdalla Amin but you can call me Amin , I am a fullstack engineer and UI/UX designer ,<br/>
-            When i am not coding you can find me chilling mostly <br/>
-            I love working on projects that includes different form of art like music or draweing with web technology <br/>
-            so if you are looking for building your next creative website lets get in touch and build it toghter
+            I have +3 years of hands on Experience from launching my own startup to working in a small/medium size startups, currently working for big corporate.<br/>
+            I have a passion for working on artistic/technical projects. <br/>
+            When I am not coding you can find me chilling mostly or playing my Bass Guitar.<br/>
+            So if you are looking for building your next creative website lets get in touch and build it togther.<br/>
         </SectionText>
         <Button onClick={()=>window.location ="mailto:amin@meenamin.com"}>Contact Me</Button>
     </LeftSection>

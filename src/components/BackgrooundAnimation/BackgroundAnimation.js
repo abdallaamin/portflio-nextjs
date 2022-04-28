@@ -33,7 +33,7 @@ const BackgroundAnimation = () => (
         transform="translate(-295.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
-        fill="#945DD6"
+        fill="red"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_2" />
@@ -85,7 +85,7 @@ const BackgroundAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
-        fill="#945DD6"
+        fill="red"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_0" />
@@ -106,7 +106,7 @@ const BackgroundAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-382.164 -155.029) rotate(90 382.164 155.029)"
-        fill="#F46737"
+        fill="red"
       >
         <animateMotion
           dur="10s"
@@ -168,7 +168,7 @@ const BackgroundAnimation = () => (
         rx="1.07306"
         ry="1.07433"
         transform="translate(-165.524 -93.9596)"
-        fill="#F46737"
+        fill="red"
       >
         <animateMotion
           dur="10s"

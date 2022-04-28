@@ -53,10 +53,10 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color:white;
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: white;
     opacity: 1;
     cursor: pointer;
   }
@@ -120,7 +120,7 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #60b7d6;
+    background-color: #ffba8f;
     transform: scale(1.2);
     cursor: pointer;
     

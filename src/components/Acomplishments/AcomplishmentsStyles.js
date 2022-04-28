@@ -5,7 +5,7 @@ export const Boxes = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  margin: 24px 0 40px;
+  margin: 20px 0 30px;
 
   @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
@@ -23,10 +23,10 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  background: #ffba8f;
   border-radius: 12px;
   height: 144px;
-  padding: 24px;
+  padding: 15px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
 
@@ -68,19 +68,19 @@ export const BoxNum = styled.h5`
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 15px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 12px;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 10px;
-    line-height: 14px;
+    line-height: 10px;
   }
 `
 

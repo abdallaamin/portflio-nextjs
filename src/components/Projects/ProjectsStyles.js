@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
-export const Img = styled.img`
+export const SimpleImageSlider = styled.img`
   width:100%;
   height:100%;
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -42,7 +45,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #ffba8f;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -52,13 +55,13 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #ffba8f;
 `;
 
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
+  color: white;
   font-family: 'Droid Serif', serif;
   font-size: 13px;
   font-style: italic;
@@ -69,7 +72,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: white;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -89,14 +92,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:white;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #ffba8f;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #f7a46f;
 
 }
 `;
@@ -107,6 +110,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color:#ffba8f;
 font-size: 1.5rem;
 `

@@ -24,13 +24,15 @@ export const Section = styled.section`
   }
 `
 
+{//linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);}
+}
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -59,8 +61,8 @@ export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 1rem;
+  color: white;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -78,46 +80,48 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 150px;
   height: 6px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: white;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #ffba8f 0%, #ffba8f 100%)' :
+    'linear-gradient(270deg, #ffba8f 0%, #ffba8f 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 48px;
+    width: 335px;
     height: 4px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
+    width: 335px;
     height: 2px;
   }
 `
 export const SectionSubText = styled.p`
-  max-width: 800px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  max-width: 2000px;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 35px;
+  color:#ffba8f;
+  padding:0 0 20px 0;
+  
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 22px;
   }
 `
 export const SecondaryBtn = styled.button`
-  color: #FFF;
+  color: white;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
   box-sizing: border-box;
@@ -176,8 +180,8 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  color: #ffba8f;
+  background: white;
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -199,17 +203,20 @@ export const ButtonBack = styled.div`
   }
 `
 
+    {//${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+}
+
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #fff;
+  color: white;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background:#ffba8f;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -221,6 +228,7 @@ export const ButtonFront = styled.button`
 
   &:hover {
     opacity: 0;
+    background:#ffba8f;
   }
   &:focus {
     outline: none;
@@ -231,7 +239,7 @@ export const ButtonFront = styled.button`
   }
 
   &:disabled{
-    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    background:#ffba8f;
     opacity: 0.5;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
@@ -253,7 +261,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: red;
     transform: scale(1.2);
     cursor: pointer;
   }
